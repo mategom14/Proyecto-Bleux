@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+    align-items: center;
+    color: #f5f5f5;
+    background-color: #1b0f34;
+    flex-direction: row;
+}
+
+.list01 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+}
+
+.list01 li {
+    margin: 0px 10px;
+}
+
+.list01 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.list01 button {
+    border-radius: 5px;
+    padding: 16px 19px;
+    color: white;
+    background: linear-gradient(90deg, #6e4fc3 7%, #405aed 93%);
+    border: none;
+}
+
+.mid1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #2c2150;
+    color: white;
+    height: 70vh;
+}
+
+.mid1-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 100px 255px;
+    width: 50%;
+}
+
+.mid1-text h1 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mid1-text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    width: 90%;;
+
+}
+
+.mid-bts {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    width: 57%;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+
+#bt1 {
+    margin-right: 20px;
+    color: rgb(242, 89, 191);
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#bt2 {
+    color: white;
+    border:#f5f5f5 2px solid;
+    padding: 10px 31px;
+    border-radius: 5px;
+    background-color: #2c2150;
+}
+
+.mid1-2 {
+    display: flex;
+    background-image: url(/Assets/Images/hojasFondo.jpg);
+    background-size: cover;
+    width: 51%;
+    padding-left: 150px;
+    align-items: center;
+
+}
+
+.mid1-2 img {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+
+/*organizar la imagen del celular y seguir*/
+
